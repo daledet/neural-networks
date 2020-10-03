@@ -44,7 +44,7 @@ if __name__ == "__main__":
                                 [0, 1, 1]])
     training_outputs = np.array([[0, 1, 1, 0]]).T
 
-    neural_network.train(training_inputs, training_outputs, 10000)
+    neural_network.train(training_inputs, training_outputs, 20000)
 
     print('Synaptic Weights After Training: ')
     print(neural_network.synoptic_weights)
