@@ -17,7 +17,7 @@ class Perceptron(object):
     Attributes
     ----------
     w_ : 1d-array
-        Weights after fiting
+        Weights after fitting
     errors_ : list
         Number of misclassifications (updates) in each epoch
 
